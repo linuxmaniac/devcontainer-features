@@ -1,11 +1,11 @@
 # Dev Container Features:
-## Example Contents
 
 This repository contains a _collection_ of Features
 ### `talosctl`
 
 Running [`talosctl`](https://www.talos.dev/v1.4/learn-more/talosctl/) inside the built container.
 
+Based on the work of [jsburckhardt/devcontainer-features/flux](https://github.com/jsburckhardt/devcontainer-features/)
 
 ```jsonc
 {

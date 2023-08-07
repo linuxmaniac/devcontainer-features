@@ -11,8 +11,7 @@ architecture="$(uname -m)"
 case ${architecture} in
 x86_64) architecture="amd64" ;;
 aarch64 | armv8*) architecture="arm64" ;;
-aarch32 | armv7* | armvhf*) architecture="arm" ;;
-i?86) architecture="386" ;;
+aarch32 | armv7* | armvhf*) architecture="arm7" ;;
 *)
 	echo "(!) Architecture ${architecture} unsupported"
 	exit 1

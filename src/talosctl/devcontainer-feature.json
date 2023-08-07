@@ -2,7 +2,7 @@
     "name": "talosctl cli",
     "id": "talosctl",
     "version": "1.0.0",
-    "description": "talosctl feature",
+    "description": "talosctl cli feature",
     "options": {
         "version": {
             "type": "string",
