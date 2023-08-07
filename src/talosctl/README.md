@@ -1,7 +1,7 @@
 
 # talosctl cli (talosctl)
 
-talosctl feature
+talosctl cli feature
 
 ## Example Usage
 
