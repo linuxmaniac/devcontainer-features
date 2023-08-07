@@ -1,0 +1,13 @@
+{
+    "name": "talosctl cli",
+    "id": "talosctl",
+    "version": "0.1.0",
+    "description": "talosctl feature",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of talos to install. Accepts versions with 'v' prefix."
+        }
+    }
+}

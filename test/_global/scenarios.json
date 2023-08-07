@@ -1,12 +1,9 @@
 {
-    "color_and_hello": {
+    "talos-specific-version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "talosctl": {
+                "version": "v1.4.7"
             }
         }
     }
