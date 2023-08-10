@@ -66,7 +66,9 @@ mkdir ksniff-install
 	cd ksniff-install
 	unzip ../"${KSNIFF_FILENAME}"
 	make install
-	mv ~/.kube/plugins/sniff/* /usr/local/bin/
+	if [ -d ~/.kube/plugins/sniff ] ; then
+		mv ~/.kube/plugins/sniff/* /usr/local/bin/
+	fi
 )
 rm -rf "${KSNIFF_FILENAME}" ksniff-install
 
