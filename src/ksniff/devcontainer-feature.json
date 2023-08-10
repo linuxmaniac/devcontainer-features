@@ -1,0 +1,13 @@
+{
+    "name": "ksniff kubectl plugin",
+    "id": "ksniff",
+    "version": "1.0.0",
+    "description": "ksniff kubectl plugin",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of ksniff to install. Accepts versions with 'v' prefix."
+        }
+    }
+}
